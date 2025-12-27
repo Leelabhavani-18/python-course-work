@@ -1,6 +1,6 @@
 # main.py
 
-import my_program
+import my_programs
 
 while True:
     print("\n------ FUNCTION MENU ------")
@@ -25,35 +25,35 @@ while True:
     choice = int(input("Enter your choice: "))
 
     if choice == 1:
-        my_program.armstrong_number()
+        my_programs.armstrong_number()
     elif choice == 2:
-        my_program.swap_numbers()
+        my_programs.swap_numbers()
     elif choice == 3:
-        my_program.count_vowels()
+        my_programs.count_vowels()
     elif choice == 4:
-        my_program.gcd_two_numbers()
+        my_programs.gcd_two_numbers()
     elif choice == 5:
-        my_program.reverse_number()
+        my_programs.reverse_number()
     elif choice == 6:
-        my_program.sum_of_digits()
+        my_programs.sum_of_digits()
     elif choice == 7:
-        my_program.count_words()
+        my_programs.count_words()
     elif choice == 8:
-        my_program.title_case()
+        my_programs.title_case()
     elif choice == 9:
-        my_program.prime_number()
+        my_programs.prime_number()
     elif choice == 10:
-        my_program.factorial()
+        my_programs.factorial()
     elif choice == 11:
-        my_program.fibonacci()
+        my_programs.fibonacci()
     elif choice == 12:
-        my_program.palindrome_string()
+        my_programs.palindrome_string()
     elif choice == 13:
-        my_program.custom_sort()
+        my_programs.custom_sort()
     elif choice == 14:
-        my_program.decimal_to_binary()
+        my_programs.decimal_to_binary()
     elif choice == 15:
-        my_program.max_in_list()
+        my_programs.max_in_list()
     elif choice == 0:
         print("Exiting program. Thank you!")
         break
